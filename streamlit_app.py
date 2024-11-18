@@ -1,5 +1,4 @@
 import streamlit as st
-# from chardet import detect
 import json
 
 def read_json(file_path):
