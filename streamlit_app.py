@@ -6,7 +6,7 @@ def read_json(file_path):
     # try:
     with open(file_path, 'rb') as file:
         file_content = file.read()
-        data = json.loads(content)
+        data = json.loads(file_content)
         return data
 
 st.set_page_config(page_title="数据后处理过程演示", layout="wide")
